@@ -6,6 +6,7 @@ header_files = [
   'girtest.h',
   'girtest-alias-tester.h',
   'girtest-class-tester.h',
+  'girtest-gptrarray-tester.h',
   'girtest-constant-tester.h',
   'girtest-error-tester.h',
   'girtest-primitive-value-type-tester.h',
@@ -18,6 +19,7 @@ header_files = [
 source_files = [
   'girtest-alias-tester.c',
   'girtest-class-tester.c',
+  'girtest-gptrarray-tester.c',
   'girtest-error-tester.c',
   'girtest-primitive-value-type-tester.c',
   'girtest-property-tester.c',

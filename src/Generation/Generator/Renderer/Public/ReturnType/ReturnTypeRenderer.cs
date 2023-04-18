@@ -8,6 +8,7 @@ internal static class ReturnTypeRenderer
     {
         new ReturnType.Bitfield(),
         new ReturnType.Class(),
+        new ReturnType.ClassGLibPtrArray(),
         new ReturnType.Enumeration(),
         new ReturnType.Interface(),
         new ReturnType.Pointer(),

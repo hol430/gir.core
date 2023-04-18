@@ -19,6 +19,11 @@ internal static class Functions
         if (function is null)
             return string.Empty;
 
+        if (function.CIdentifier == "girtest_gptrarray_array_tester_return_string_array")
+        {
+            Console.WriteLine("test");
+        }
+
         try
         {
             return @$"

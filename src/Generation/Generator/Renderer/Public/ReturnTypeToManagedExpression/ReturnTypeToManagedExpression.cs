@@ -8,6 +8,7 @@ internal static class ReturnTypeToManagedExpression
     {
         new ReturnTypeToManagedExpressions.Bitfield(),
         new ReturnTypeToManagedExpressions.Class(),
+        new ReturnTypeToManagedExpressions.ClassGLibPtrArray(),
         new ReturnTypeToManagedExpressions.Enumeration(),
         new ReturnTypeToManagedExpressions.Interface(),
         new ReturnTypeToManagedExpressions.PlatformString(),

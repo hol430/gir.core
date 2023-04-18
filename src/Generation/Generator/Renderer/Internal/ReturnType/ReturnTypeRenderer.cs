@@ -9,6 +9,7 @@ internal static class ReturnTypeRenderer
         new ReturnType.Bitfield(),
         new ReturnType.Class(),
         new ReturnType.ClassArray(),
+        new ReturnType.ClassGLibPtrArray(),
         new ReturnType.Enumeration(),
         new ReturnType.Interface(),
         new ReturnType.InterfaceGLibPtrArray(),
@@ -22,6 +23,7 @@ internal static class ReturnTypeRenderer
         new ReturnType.StringArray(),
         new ReturnType.Union(),
         new ReturnType.Utf8String(),
+        new ReturnType.Utf8StringGLibPtrArray(),
         new ReturnType.Void(),
     };
 
