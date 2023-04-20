@@ -6,6 +6,10 @@ internal static class RecordMethods
 {
     public static string Render(GirModel.Record record)
     {
+        if (record.Name == "PtrArray")
+        {
+            System.Console.WriteLine("debug7");
+        }
         return $@"
 using System;
 using System.Runtime.InteropServices;

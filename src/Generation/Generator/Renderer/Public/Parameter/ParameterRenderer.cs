@@ -10,6 +10,7 @@ internal static class ParameterRenderer
         new Parameter.Callback(),
         new Parameter.Class(),
         new Parameter.ClassArray(),
+        new Parameter.ClassGLibPtrArray(),
         new Parameter.Enumeration(),
         new Parameter.Interface(),
         new Parameter.InterfaceArray(),

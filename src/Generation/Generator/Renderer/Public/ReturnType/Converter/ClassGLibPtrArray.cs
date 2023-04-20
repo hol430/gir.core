@@ -6,7 +6,7 @@ internal class ClassGLibPtrArray : ReturnTypeConverter
 {
     public RenderableReturnType Create(GirModel.ReturnType returnType)
     {
-        var nullableTypeName = ComplexType.GetFullyQualified((GirModel.Class) returnType.AnyType.AsT0) + Nullable.Render(returnType);
+        // var nullableTypeName = ComplexType.GetFullyQualified((GirModel.Class) returnType.AnyType.AsT0) + Nullable.Render(returnType);
 
         return new RenderableReturnType("GLib.PtrArray");
     }

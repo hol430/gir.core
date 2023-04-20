@@ -22,7 +22,13 @@ public static class Records
         };
 
         foreach (var record in records.Where(Record.IsEnabled))
+        {
+            if (record.Name == "PtrArray")
+            {
+                System.Console.WriteLine("debug5");
+            }
             foreach (var generator in generators)
                 generator.Generate(record);
+        }
     }
 }

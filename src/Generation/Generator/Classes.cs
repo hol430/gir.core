@@ -31,7 +31,13 @@ public static class Classes
         };
 
         foreach (var cls in classes)
+        {
+            if (cls.Name == "PtrArray")
+            {
+                System.Console.WriteLine("debug4");
+            }
             foreach (var generator in generators)
                 generator.Generate(cls);
+        }
     }
 }

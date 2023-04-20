@@ -12,6 +12,10 @@ internal static class FunctionRenderer
     {
         try
         {
+            if (Function.GetName(function) == "GetElemTransferNone")
+            {
+                Console.WriteLine("debug8");
+            }
             var parameters = ParameterToNativeExpression.Initialize(function.Parameters);
 
             return @$"

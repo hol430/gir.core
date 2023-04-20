@@ -15,6 +15,7 @@ internal static class ReturnTypeRenderer
         new ReturnType.InterfaceGLibPtrArray(),
         new ReturnType.PlatformString(),
         new ReturnType.Pointer(),
+        new ReturnType.PointerGLibPtrArray(),
         new ReturnType.PrimitiveValueType(),
         new ReturnType.PrimitiveValueTypeAlias(),
         new ReturnType.PrimitiveValueTypeArray(),

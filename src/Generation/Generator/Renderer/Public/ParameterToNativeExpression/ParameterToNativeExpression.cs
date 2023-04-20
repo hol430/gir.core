@@ -12,6 +12,7 @@ internal static class ParameterToNativeExpression
         new ParameterToNativeExpressions.Callback(),
         new ParameterToNativeExpressions.Class(),
         new ParameterToNativeExpressions.ClassArray(),
+        new ParameterToNativeExpressions.ClassGLibPtrArray(),
         new ParameterToNativeExpressions.Enumeration(),
         new ParameterToNativeExpressions.Interface(),
         new ParameterToNativeExpressions.InterfaceArray(),

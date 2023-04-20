@@ -6,6 +6,10 @@ internal static class RecordClass
 {
     public static string Render(GirModel.Record record)
     {
+        if (record.Name == "PtrArray")
+        {
+            System.Console.WriteLine("debug6");
+        }
         var name = Record.GetPublicClassName(record);
         var internalHandleName = Record.GetInternalHandleName(record);
 
